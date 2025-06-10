@@ -8,4 +8,7 @@ Disponibilizado uma interface, onde é possível decidir ser um Producer ou Cons
 
 Assim a máquina subirá um servidor RabbitMQ na porta 5672 e você poderá acessar o admin em http://localhost:15672/ com usuário **guest** e senha **guest**.
 
+Referencias:
+https://github.com/rabbitmq/rabbitmq-tutorials/tree/main
+
 Divirta-se!!
