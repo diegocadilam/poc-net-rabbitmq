@@ -10,10 +10,10 @@ using System.Threading.Tasks;
 
 namespace PocNetRabbitMQ
 {
-    public class RabbitMQProducer
+    public class Producer
     {
 
-        public async Task<bool> Producer(string message)
+        public async Task<bool> Send(string message)
         {
             var factory = new ConnectionFactory { HostName = "localhost" };
             using var connection = await factory.CreateConnectionAsync();
